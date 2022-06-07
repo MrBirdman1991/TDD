@@ -17,10 +17,10 @@
         margin-bottom: 0.5rem;
       }
     </style>
-    <script type="module" defer src="app.js"></script>
+    <script type="module" defer src="./app.js"></script>
   </head>
   <body>
-    <form action="/calculate" method="POST">
+    <form>
       <div>
         <label for="num1">First Number</label>
         <input id="num1" name="num1" type="numeric" />
@@ -29,7 +29,7 @@
         <label for="num2">Second Number</label>
         <input id="num2" name="num2" type="numeric" />
       </div>
-      <button>Calculate</button>
+      <button type="submit">Calculate</button>
     </form>
     <div id="result"></div>
   </body>
